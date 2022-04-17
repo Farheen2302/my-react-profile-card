@@ -1,7 +1,4 @@
 import React from "react"
-
-
-
 import ProfileDetails from "./Components/ProfileDetails"
 import SocialConnects from "./Components/SocialConnects"
 

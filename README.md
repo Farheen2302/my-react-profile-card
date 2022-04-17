@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+* Overview
+* The challenge
+* Links
+* My process
+* Built with
+* What I learned
+* Continued development
+* Author
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Overview
 
-## Available Scripts
+This is a basic react learning experience project. In this I have created a resume or profile card for myself. This card basically hve three sections:-
+1. Profile Phole
+2. Basic Details
+3. Contact Links
+4. Profile Details
+5. Social Connects
 
-In the project directory, you can run:
+# Tech 
 
-### `npm start`
+1. React
+2. HTML
+3. CSS
+4. Javascript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Learnings
+1. Learnt to write a react application from Scratch.
+2. Installing nodeJS and using npm to build the project
+3. Learnt modifying CSS to create a presentable UI
+4. Using Figma to desing the web application
+4. Finally, using different components for create a one big application. Each component is independent from each other which makes distribution and developement easy and organized.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Code
 
-### `npm test`
+    import React from "react"
+    import ProfileDetails from "./Components/ProfileDetails"
+    import SocialConnects from "./Components/SocialConnects"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    export default function App() {
+    return (
+        <div className="app">
+            <ProfileDetails />
+            <SocialConnects />
+        </div>
+    )}
 
-### `npm run build`
+-------
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    import React from "react"
+    import About from "./About"
+    import Interests from "./Interests"
+    import BasicDetails from "./BasicDetails"
+    import ContactDetails from "./ContactDetails"
+    import ProfilePhoto from "./ProfilePhoto"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    export default function ProfileDetails() {
+        return (
+            <main className="profile_details">
+                <ProfilePhoto />
+                <BasicDetails />
+                <ContactDetails />
+                <About />
+                <Interests />
+            </main>
+        )
+    }
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+----
 
-### `npm run eject`
+    import React from "react"
+    import twitter from '../Images/Twitter Icon.png'
+    import facebook from '../Images/Facebook Icon.png'
+    import instagram from '../Images/Instagram Icon.png'
+    import github from '../Images/GitHub Icon.png'
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    export default function SocialConnects() {
+        return (
+            <footer className="social_connects">
+                <a  href="#"><img src={twitter} alt='facebook link'></img></a>
+                <a  href="#"><img src={facebook} alt='facebook link'></img></a>
+                <a  href="#"><img src={instagram} alt='facebook link'></img></a>
+                <a  href="#"><img src={github} alt='facebook link'></img></a>
+            </footer>
+        )
+    }
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# The challenge
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Earlier I was trying the Scrimba website to write the applicaion. As there is not provision to upload the files I would have to upload the files in 3P storage and ise the link for the file od type images(png, jpg). I was not able to successfully do that. So, I took diff approach to resolve the issue for now. I build the application locally and then finally pushed the code in Github.
 
-## Learn More
+# Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Website - Farheen Nilofer
+Fullstack Developer - @Microsoft
