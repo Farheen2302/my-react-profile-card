@@ -1,11 +1,9 @@
-* Overview
-* The challenge
-* Links
-* My process
-* Built with
-* What I learned
-* Continued development
-* Author
+* ### Overview
+* ### Tech
+* ### Learnings
+* ### Code
+* ### The challenge
+* ### Author
 
 # Overview
 
