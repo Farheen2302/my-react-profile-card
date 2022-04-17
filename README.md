@@ -83,6 +83,9 @@ This is a basic react learning experience project. In this I have created a resu
         )
     }
 
+# Result
+
+
 # The challenge
 
 Earlier I was trying the Scrimba website to write the applicaion. As there is not provision to upload the files I would have to upload the files in 3P storage and ise the link for the file od type images(png, jpg). I was not able to successfully do that. So, I took diff approach to resolve the issue for now. I build the application locally and then finally pushed the code in Github.
