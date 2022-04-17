@@ -1,0 +1,164 @@
+body {
+    box-sizing: border-box;
+    background: #23252C;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+}
+
+.app {
+    width: 30%;
+    height: 90%;
+    margin-left: 34%;
+    margin-top: 3%;
+
+  
+}
+
+.profile_details {
+    background-color: #1A1B21;
+}
+
+.basic_details {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-top: 20px;
+    background-color: #1A1B21;
+    font-family: 'Inter', sans-serif;
+}
+
+.basic_details--name {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: #1A1B21;
+        font-family: 'Inter', sans-serif;
+     
+    
+}
+
+.basic_details--job_title {
+    font-weight: 400;
+    font-size: 15.8px;
+    line-height: 15px;
+    color: #F3BF99;
+    background-color: #1A1B21;
+}
+
+.basic_details--website {
+    font-weight: 400;
+    font-size: 14.24px;
+    line-height: 0%;
+    margin-top: 10px;
+    color: #F5F5F5;
+    background-color: #1A1B21;
+}
+
+.about,
+.interests,
+.contact_details {
+    margin-left: 10%;
+    margin-right: 8%;
+   
+}
+
+
+.contact_details {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #1A1B21;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    padding: 0px;
+}
+
+.contact_details--email {
+    width: 45%;
+    height: 34px;
+
+    margin-right: 6%;
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    padding: 0px;
+    /* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+}
+
+.contact_details--linkedIn {
+    width: 50%;
+    height: 34px;
+    color: #FFFFFF;
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 0px;
+}
+
+.about,
+.interests {
+    background-color: #1A1B21;
+
+}
+
+.about--heading,
+.interests--heading {
+    font-weight: 700;
+    font-size: 20px;
+    color: #F5F5F5;
+    background-color: #1A1B21;
+}
+
+.about--details,
+.interests--details {
+
+    font-weight: 400;
+    font-size: 15.24px;
+    color: #DCDCDC;
+    background-color: #1A1B21;
+    padding: 0px;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.interests--details {
+padding-bottom: 10px;
+}
+
+
+.profile_photo {
+    background-image: url('./Images/profile-picture.png');
+    height: 400px;
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.social_connects {
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #161619;
+  
+}
